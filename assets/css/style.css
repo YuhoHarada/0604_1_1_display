@@ -1,0 +1,23 @@
+button{
+    width: 500px;
+    background: navy;
+    color: white;
+    line-height: 70px;
+    font-size: 40px;
+    border: none;
+    display: block;
+    margin: 0 auto 50px;
+}
+
+img{
+    display: none;
+}
+
+button:hover{
+    background: black;
+}
+
+button:hover + img{
+    display: block;
+    margin: 0 auto;
+}
